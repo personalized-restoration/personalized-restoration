@@ -1,5 +1,13 @@
 
 ## Personalized Restoration via Dual-Pivot Tuning
+TL;DR: By using a few reference images of an individual, we personalize a diffusion prior within a blind image restoration framework. This results in a natural image that closely resembles the individual's identity, while retaining the visual attributes of the degraded image.
+
+<p align="center">
+    <img src="assets/teaser-2.gif">
+</p>
+
+
+
 To train our personalized model for diffusion-based image restoration, we build on top of two codebases: (1) HuggingFace diffusers (for DreamBooth) and DiffBIR (https://github.com/XPixelGroup/DiffBIR), the base model we use. In this codebase, we provide a set of train and test images for a particular identity, that can be used to try our method in the directory `trial_data' (we supply training images, sample degraded test images, and reference images for the degraded images). This data is from the CelebRef-HQ dataset (https://github.com/csxmli2016/DMDNet).
 
 ## Step 1: Out of context textual pivoting
