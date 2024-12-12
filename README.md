@@ -103,7 +103,7 @@ Use the sample images we provide as part of this codebase.
 
 ## Citation
 
-If you use this code and data for your research, please cite our paper.
+If you use this code for your research, please cite our paper.
 
 ```
 @article{chari2023personalized,
