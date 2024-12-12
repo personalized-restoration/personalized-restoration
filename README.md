@@ -100,3 +100,16 @@ python inference_face.py \
 --device cuda
 ```
 Use the sample images we provide as part of this codebase.
+
+## Citation
+
+If you use this code and data for your research, please cite our paper.
+
+```
+@article{chari2023personalized,
+  title={Personalized Restoration via Dual-Pivot Tuning},
+  author={Chari, Pradyumna and Ma, Sizhuo and Ostashev, Daniil and Kadambi, Achuta and Krishnan, Gurunandan and Wang, Jian and Aberman, Kfir},
+  journal={arXiv preprint arXiv:2312.17234},
+  year={2023}
+}
+```
